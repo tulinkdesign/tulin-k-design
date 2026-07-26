@@ -182,9 +182,9 @@ body {
   margin: 32px 0;
   flex-wrap: wrap;
 }
-.stockist-city-name {
-  margin: 0 0 8px;
-  font-size: 15px;
+.stockist-city-name,
+.stockist-list {
+  text-align: center;
 }
 .stockist-list {
   margin: 0;
