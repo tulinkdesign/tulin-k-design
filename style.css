@@ -99,6 +99,13 @@ body {
   line-height: 0.98;
   letter-spacing: -0.01em;
 }
+.wordmark-logo {
+  max-width: 340px;
+  width: 80%;
+  height: auto;
+  margin: 0 auto 22px;
+  display: block;
+}
 .tagline {
   margin: 0 auto;
   max-width: 440px;
@@ -124,9 +131,11 @@ body {
 /* Gallery */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 28px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
   padding: 48px 24px;
+  max-width: 620px;
+  margin: 0 auto;
 }
 .piece {
   margin: 0;
